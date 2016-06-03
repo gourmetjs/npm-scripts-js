@@ -13,10 +13,6 @@
     "mac",
     "windows"
   ],
-  "scripts": {
-    "test": "tape test/*.js",
-    "lint": "eslint ."
-  },
   "engines": {
     "node": ">=0.12.14"
   },
@@ -24,9 +20,5 @@
   "main": "lib/context",
   "dependencies": {
     "object-assign": "^4.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^2.11.1",
-    "tape": "^4.5.1"
   }
 }
