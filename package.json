@@ -1,0 +1,32 @@
+{
+  "name": "npm-scripts-js",
+  "version": "0.1.0",
+  "description": "Portable shell command utility to use npm as a build tool",
+  "author": "Max Jung <max@gourmetjs.com>",
+  "license": "MIT",
+  "repository": "https://github.com/gourmetjs/npm-scripts-js",
+  "keywords": [
+    "shell",
+    "npm scripts",
+    "command",
+    "portable",
+    "mac",
+    "windows"
+  ],
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=0.12.14"
+  },
+  "bin": "bin/npm-scripts-js.js",
+  "main": "lib/context",
+  "dependencies": {
+    "object-assign": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "tape": "^4.5.1"
+  }
+}
