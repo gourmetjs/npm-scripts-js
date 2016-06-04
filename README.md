@@ -13,3 +13,7 @@ Portable shell command utility to use npm as a build tool.
 # How to use
 
 Later...
+
+# License
+
+MIT
