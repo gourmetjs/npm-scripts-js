@@ -13,9 +13,9 @@ if (!cmd)
 if (typeof def[cmd] !== "function")
   throw Error("No command handler is defined in npm_scripts: " + cmd);
 
-var context = require("../lib/context")(def);
+var nsh = require("../lib/context")(def);
 
-var res = def[cmd].call(def, context);
+var res = def[cmd].call(def, nsh);
 
 if (res instanceof Promise) {
   res.catch(function(err) {
