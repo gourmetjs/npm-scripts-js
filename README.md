@@ -8,7 +8,7 @@ Portable shell command utility to use npm as a build tool.
 
 # Node version requirement
 
-[Node version 0.12.14 or higher](http://node.green/#Promise) is required for Promise support.
+[Node version 0.12.0 or higher](http://node.green/#Promise) is required for Promise support.
 
 # How to use
 
